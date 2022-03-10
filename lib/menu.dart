@@ -20,7 +20,7 @@ class _MenuState extends State<Menu> {
         child: Column(
           children: [
             const SizedBox(
-              height: 65,
+              height: 100,
             ),
             ElevatedButton(
               style: elevatedEstilo,
