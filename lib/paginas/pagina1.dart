@@ -1,6 +1,6 @@
 import 'dart:developer';
 
-import 'package:fototeste/paginas/pagina2.dart';
+import 'package:fototeste/paginas/focusedpage.dart';
 import '/services/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -101,7 +101,7 @@ class _Pagina1State extends State<Pagina1> {
                     backgroundColor: Colors.red,
                   ),
                 ],
-                child: Image.asset('assets/imagens/calendario.png'),
+                child: Image.asset('assets/imagens/profile.png'),
               ),
             )
           ],

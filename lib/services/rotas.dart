@@ -1,3 +1,5 @@
+import 'package:fototeste/paginas/pagina3.dart';
+
 import '/menu.dart';
 import '/paginas/pagina1.dart';
 import 'package:get/get.dart';
@@ -12,8 +14,8 @@ rotas() {
         page: () => const Pagina1(),
         transition: Transition.zoom),
     GetPage(
-        name: '/pagina1/',
-        page: () => const Pagina1(),
+        name: '/picker/',
+        page: () => const Picker(),
         transition: Transition.zoom),
   ];
 }

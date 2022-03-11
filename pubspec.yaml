@@ -19,9 +19,11 @@ dependencies:
   get_storage: ^2.0.3                   # Basico
   google_fonts: ^2.2.0                  # Basico
   supabase: ^0.2.10                     # Basico
-  cupertino_icons: ^1.0.2           
+  image_picker: ^0.8.4+11
+  flutter_native_image: ^0.0.6+1        
+  cupertino_icons: ^1.0.2    
   rename: ^2.0.1
-  
+    
 dev_dependencies:
   flutter_lints: ^1.0.0
   flutter_launcher_icons: "^0.9.2"
@@ -34,17 +36,17 @@ flutter_icons:
   ios: true
   macos: false
   windows: false
-  web: flase
+  web: false
   image_path: "assets/app_logo.png"
 
 flutter:
   uses-material-design: true
 
   assets:
-    - assets/imagens/
+    - assets/
 
   fonts:
-    - family: Roboto
+    - family: DancingScript
       fonts:
         - asset: assets/fonts/Roboto-Regular.ttf
         - asset: assets/fonts/Roboto-Bold.ttf

@@ -20,14 +20,14 @@ class _MenuState extends State<Menu> {
         child: Column(
           children: [
             const SizedBox(
-              height: 100,
+              height: 120,
             ),
             ElevatedButton(
               style: elevatedEstilo,
               onPressed: () {
-                Get.toNamed("/pagina1/");
+                Get.toNamed("/picker/");
               },
-              child: const Text('Pagina 1'),
+              child: const Text('Picker & Resize'),
             ),
           ],
         ),
